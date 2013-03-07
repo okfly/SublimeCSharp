@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[if(${1:true}){
+	$3
+}
+else if(${2:false})
+{
+	$4
+}
+else {
+	$5
+}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ieie</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.cs</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>if else-if else</description>
+</snippet>
