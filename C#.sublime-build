@@ -1,0 +1,6 @@
+{
+	"cmd": ["mcs", "-out:program", "*.cs"],
+	"file_regex": "\\./.+?\\((\\d+?),(\\d+?)\\):\\s(.+?)\n",
+	"working_dir": "${file_path}",
+	"selector": "source.cs"
+}

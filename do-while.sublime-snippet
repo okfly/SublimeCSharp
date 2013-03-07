@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[do {
+	$2
+} while(${1:true})]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>do</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.cs</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>do-while loop</description>
+</snippet>
